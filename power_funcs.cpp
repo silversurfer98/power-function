@@ -1,5 +1,4 @@
-#include"power.h"
-
+#include "include.h"
 
 float mexp(float x)
 {
@@ -174,23 +173,4 @@ float mln(float x)
 float mysq(float base)
 {
     return mexp(0.5 * mln(base));
-}
-
-float mypower(float x, float y)
-{
-	// x>1 always if x<1 ln return value in negative
-	// epower cant handle negative values and a '0' value
-	// y>1 always since ln(x)*y > ln 2
-	if (x > 1 && y > 1)
-	{
-		float l = mln(x);
-		l = l * y;
-		if (l > ln2_hi)
-			return mexp(l);
-		else
-			return -1;
-	}
-	else
-		return -1;
-
 }
