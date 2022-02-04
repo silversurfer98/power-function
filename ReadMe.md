@@ -1,13 +1,14 @@
-#This is a very primitive method which calculates ln(x) and exp(x) then evaluates power
+# This is a method which calculates ln(x) and exp(x) then evaluates power
 
-to be developed further for more accuracy
+has resonable to good accuracy
 
-forked from sun microsystems math library
+sun microsystems math library helped a lot
  --> remez algorithm
  --> Number decay methods
  --> bitwise operations
  --> quake III FISR methods
  --> still dont know what *(1+(int*))&x means please help
+
 
  https://www.netlib.org/fdlibm/e_log.c
 

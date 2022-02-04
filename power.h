@@ -1,6 +1,4 @@
 #pragma once
-#include<iostream>
-#include<fstream>
 
 // https://www.h-schmidt.net/FloatConverter/IEEE754.html
 // im using IEEE 754 stds
@@ -43,5 +41,6 @@ ln2HI[2] = { 6.93147180369123816490e-01,  /* 0x3fe62e42, 0xfee00000 */
 
 float mexp(float x);
 float mln(float x);
-float mysq(float base);
-float mypower(float x, float y);
+float msq(float base);
+float mpower(float x, float y);
+float minvsq(float number);
