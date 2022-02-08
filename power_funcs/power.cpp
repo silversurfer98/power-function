@@ -106,7 +106,7 @@ float mln(float x)
     int xsb = (hxx >> 31) & 1;		/* sign bit of x */
     if (hx == 0x00000000 || xsb == 1)
     {
-        std::cerr << "\n loosu punda \n";
+        //std::cerr << "\n press F to pay respects \n";
         exit(0);
     }
     //--------------------------------------------------

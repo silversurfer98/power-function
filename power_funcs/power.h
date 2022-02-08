@@ -1,15 +1,10 @@
 #pragma once
+#include<stdlib.h>
 
 // https://www.h-schmidt.net/FloatConverter/IEEE754.html
 // im using IEEE 754 stds
 
 # define MAX_PRECISION_TRIG 7
-
-template <typename t>
-void print(const char* a, t x)
-{
-	std::cout << "\n the " << a << " : " << x << "\n\n";
-}
 
 // const needed to calculate ln(x)
 static double
